@@ -8,6 +8,8 @@ Encontrarás un blog con 4 pantallas, una descripción personal, mis intereses y
 
 Te comparto el enlace para que lo puedas ver:
 
+https://cquiladiaz.github.io/blog/
+
 Un saludo!
 
 #NuncaParesDeAprender💚
