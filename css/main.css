@@ -18,19 +18,21 @@ font-family: 'Roboto Slab', serif;
 html{
     font-size: 62.5%;
 }
-/*Para que no tenga scroll*/
 body{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     font-family: 'Roboto Mono', monospace;
 }
 a{
     display: inline;
     text-decoration: none;
     color: black;
+}
+.home-body{
+    /*Para que no tenga scroll*/
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
 }
 /*HEADER*/
 header{
@@ -82,28 +84,85 @@ nav .profile-link a{
 }
 /*Main*/
 .home-main{
-    width: 100%;
-    height: 100vh;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
     background-image: url('../assets/img/Cover.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+.home-main section{
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 170px;
+}
 .home-main-title{
-    padding-top: 160px;
-    padding-bottom: 200px;
     font-family: 'Roboto Mono', monospace;
     font-size: 3.0rem;
     font-weight: 700;
     letter-spacing: 10px;
+    text-align: center;
     color: white;
 }
 .home-main-button{
-    width: 130px;
+    display: grid;
+    align-items: center;
+    width: 110px;
     height: 50px;
+    background: #47CFAC;
+    border: 1px solid white;
+}
+.home-main-button a{
     font-size: 1.8rem;
     font-weight: 700;
-    background-color: #47CFAC;
-    border: 1px solid white;
+}
+/*A partir de acá tendremos los estilos de blogs.html*/
+.blogs-main{
+    display: grid;
+}
+.blogs-news-container{
+    background-color: #E6E9ED;
+    padding: 0 150px 30px 150px;
+}
+.blogs-main-new{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+.blogs-main-new h3{
+    margin: 15px 0;
+    font-size: 1.6rem;
+}
+.blogs-news-img-container{
+    grid-column: 1;
+}
+.blogs-news-img-container img{
+    width: 85%;
+}
+.blogs-news-info-container{
+    grid-column: 2;
+}
+.blogs-news-info-container h2{
+    margin: 15px 0;
+    font-size: 1.8rem;
+}
+.blogs-news-info-container p{
+    margin-bottom: 36px;
+}
+.blogs-button{
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    border: 1px solid #47CFAC; 
+}
+.blogs-post-container{
+    padding: 0 140px 40px;
+}
+.blogs-post-container h3{
+    border-bottom: 1px solid #CDD2DA;
+    padding: 20px 0;
+    font-size: 1.6rem;
+    text-align: center;
 }
