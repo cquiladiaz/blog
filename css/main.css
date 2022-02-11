@@ -34,6 +34,10 @@ a{
     left: 0;
     right: 0; 
 }
+.grid-container{
+    max-width: 980px;
+    margin: auto;
+}
 /*HEADER*/
 header{
     display: grid;
@@ -126,7 +130,7 @@ nav .profile-link a{
 }
 .blogs-news-container{
     background-color: #E6E9ED;
-    padding: 0 130px 30px 140px;
+    padding: 0 120px 30px;
 }
 .blogs-main-new{
     display: grid;
@@ -161,7 +165,7 @@ nav .profile-link a{
 }
 /*Seccion de posts*/
 .blogs-post-container{
-    padding: 0 140px 0px 200px;
+    padding: 0 150px 20px;
     font-size: 1.2rem;
 }
 .blogs-post-container h3{
