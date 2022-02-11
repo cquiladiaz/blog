@@ -201,3 +201,54 @@ footer p{
     margin-top: 10px;    
     color: white;
 }
+/* A partir de acá tendremos los estilos de blog.html*/
+/*Seccion Imagen y contenido*/
+.blogpost-img-container {
+    padding: 0 50px 40px;
+}
+.blogpost-img-container img {
+    width: 100%;
+}
+.blogpost-main-container{
+    padding: 0 120px 40px;
+}
+.blogpost-main-container h3{
+    padding-bottom: 10px;
+    font-size:1.4rem ;
+    border-bottom: 1px solid #CDD2DA;
+}
+.blogpost-main-container article h1{
+    padding: 20px 0;
+    font-size: 3.5rem;
+}
+.blogpost-main-container p{
+    font-size: 1.2rem;
+}
+/*Sección de contacto*/
+.contact-main-container{
+    width: 100%;
+    min-height: 250px;
+    text-align: center;
+    background-color: #E6E9ED;
+}
+.contact-main-container div{
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+    font-size: 1.2rem;
+}
+.contact-main-container div a{
+    padding-bottom: 5px;   
+    border-bottom: 1px solid black;  
+}
+.contact-main-container div p{
+    padding-top: 15px;
+}
+.contact-main-container .contact-left, .contact-right{
+    text-align: initial;
+    margin-top: 100px;
+}
+.contact-main-container img{
+    width: 100px;
+}
+/*A partir de aca encontrarás los estilos de perfil.html */
