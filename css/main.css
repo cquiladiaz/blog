@@ -130,7 +130,7 @@ nav .profile-link a{
 }
 .blogs-news-container{
     background-color: #E6E9ED;
-    padding: 0 120px 30px;
+    padding: 0 50px 30px;
 }
 .blogs-main-new{
     display: grid;
@@ -165,7 +165,7 @@ nav .profile-link a{
 }
 /*Seccion de posts*/
 .blogs-post-container{
-    padding: 0 150px 20px;
+    padding: 0 50px 20px;
     font-size: 1.2rem;
 }
 .blogs-post-container h3{
@@ -251,7 +251,7 @@ footer p{
 .contact-main-container img{
     width: 100px;
 }
-/*A partir de aca encontrarás los estilos de perfil.html */
+/*A partir de aca encontrarás los estilos de perfil.h tml */
 .profile-main-container{
     margin-bottom: 50px;
     padding: 70px 40px;
@@ -265,6 +265,7 @@ footer p{
     display: flex;
 }
 .profile-main-container .profile-container h2{
+    padding-top: 15px;
     font-size: 2.4rem;
 }
 .profile-main-container .profile-container p{
