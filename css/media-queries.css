@@ -21,6 +21,14 @@
     .profile-main-container .profile-container{
         display: block;
     }
+    /*Seccion de contacto*/
+    .contact-main-container div{
+        width: 85%;
+    }
+    .contact-main-container .contact-left, .contact-right{
+        margin-top:0;
+        margin-bottom: 20px;
+    }
 }
 @media (max-width: 600px){
     .blogs-post-container .post-container{
