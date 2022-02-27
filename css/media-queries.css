@@ -44,3 +44,11 @@
     }
     
 }
+@media (max-width: 370px){
+    .home-main section{
+        margin-top: 50px;
+    }
+    .home-main-title{
+        font-size: 2.5rem;
+    }
+}
