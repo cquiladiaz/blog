@@ -36,6 +36,10 @@
         margin-top:0;
         margin-bottom: 20px;
     }
+    .contact-main-container img{
+        padding: 15px 0;
+        width: 75px;
+    }
 
 }
 @media (max-width: 600px){
